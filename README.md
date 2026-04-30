@@ -19,16 +19,16 @@ This project analyzes the Google Analytics sample dataset in BigQuery to extract
 - Table: bigquery-public-data.google_analytics_sample.ga_sessions_*
 - Reference: https://support.google.com/analytics/answer/3437719?hl=en
 ### 3.2 Data Structure (Relevant Fields)
-<img width="605" height="352" alt="image" src="https://github.com/user-attachments/assets/cb90244f-14a1-4c46-b74f-3632e2823f00" />
+<img width="690" height="402" alt="image" src="https://github.com/user-attachments/assets/cb90244f-14a1-4c46-b74f-3632e2823f00" />
 
 ## 4. Analysis & Queries
 ### 4.1 Monthly Metrics (Jan–Mar 2017)
 Query 01: calculate total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
 
-<img width="278" height="141" alt="image" src="https://github.com/user-attachments/assets/535258e9-0621-4747-90a0-13bbaf1ca69e" />
+<img width="550" height="280" alt="image" src="https://github.com/user-attachments/assets/535258e9-0621-4747-90a0-13bbaf1ca69e" />
 
 💡 Queries result:
-<img width="309" height="53" alt="image" src="https://github.com/user-attachments/assets/79e9bd4d-6a4e-4b52-a8b8-a23a280378e1" />
+<img width="500" height="94" alt="image" src="https://github.com/user-attachments/assets/79e9bd4d-6a4e-4b52-a8b8-a23a280378e1" />
 
 In Q1 2017, traffic shows a slight dip in February before recovering in March. Visits decreased from 64,694 (Jan) to 62,192 (Feb), then increased to 69,931 (Mar), with pageviews following a similar pattern. Notably, transactions grew steadily, reaching 993 in March, the highest among the three months.
 
